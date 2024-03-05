@@ -26,7 +26,7 @@ The system for tracking bus breakdowns and delays gathers data from school bus v
 ![image](https://github.com/NanManee/NYC_School_Bus/assets/156528525/f291c237-daea-456a-80c6-01d946894414)
 
 
-Visualization: https://public.tableau.com/app/profile/nanthawan.maneethong/viz/NYCBUSDELAYS/Dashboard1?publish=yes
+Visualization: https://public.tableau.com/app/profile/nanthawan.maneethong/viz/NYCSchoolBusDelays/Dashboard1
 
 Data Source: https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm/about_data
 
