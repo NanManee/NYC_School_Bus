@@ -1,11 +1,92 @@
-## NYC-Bus-Breakdown-and-Delays
+# NYC-Bus-Breakdown-and-Delays
 
 ![Screenshot 2024-02-21 151706](https://github.com/NanManee/NYC_School_Bus/assets/156528525/7fa22ab3-13cf-40de-8b13-39ecbb03cb23)
 
+### Data Source
 
 The system for tracking bus breakdowns and delays gathers data from school bus vendors actively operating in the field in real-time. When bus personnel encounter delays during their routes, they're directed to communicate with the dispatcher at the central office of the bus vendor. Subsequently, the bus vendor's staff is prompted to access the Bus Breakdown and Delay system to document the incident and inform OPT. Customer service representatives at OPT utilize this system to update parents calling about bus service inquiries. The Bus Breakdown and Delay system is openly accessible and provides real-time updates, with all information inputted by school bus vendor staff.
+- https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm/about_data
+- Year 2016 - 2023
+  
+### Tools
 
-## Findings and Recomendations:
+Microsoft Excel - Data Cleaning, Data Analysis and Data visualization
+
+### Inspecting Dataset
+
+- The dataset contains 21 columns and 282,192 rows, including column names.
+- Apply Filter for all columns to check for any errors, misspelling
+
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/35f59577-cfd6-48b5-9aca-27916f0a9a5c)
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/c1d00b6e-ae7c-4634-8874-6819382d7ff4)
+
+- I will only clean the columns that has data relating to the questions i need to answer.
+- Column "Occured On" appers just the numbers instead of date, so i will transform it into long date.
+  
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/94cb5330-cc98-4ae3-8efd-6444059dcf79)
+
+- Transform data into separate column
+  
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/10645180-4591-4dcf-a77a-2e5492868896)
+
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/885e3ff8-0292-42aa-8c52-d70207a83ea5)
+
+
+- Now we have Date and time columns
+  
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/5e003adc-e1f8-41bf-9c43-e6d728c9b002)
+
+
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/a64d3e10-a8df-4e20-8477-c5a20baa485f)
+
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/10b24bda-f99c-4298-a12e-15b7b8e06e67)
+
+
+- Use filter, unselect everything, select only number 1, replace it with 'Monday'. Then replace 2 for Tuesday until 7 for Sunday.
+  
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/9096bdd8-b60e-491c-b5ce-05b26eb7f31c)
+
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/1b52ed3a-c85a-4887-a5ec-a9dc59fe18e5)
+
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/5086c1d8-3298-4b88-8024-3e845444e0bd)
+
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/660aff56-4219-40ed-b7fc-e87765a25427)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Tableau Visualization:
+https://public.tableau.com/app/profile/nanthawan.maneethong/viz/NYCSchoolBusDelays/Dashboard1
+
+### Findings and Recomendations:
 
 - The main cause of Bus delays is heavy traffic, which accounts for around 176,000 delays. The mojority of bus delays happen during the morning hours, causing as high as 214,000 delays, and during the afternoon about 50,000 delays. 
 	- Highly recommend to regularly reviewing and adjusting routes based on changing traffic patterns and new developments.
@@ -24,11 +105,4 @@ The system for tracking bus breakdowns and delays gathers data from school bus v
 	- Determininh whether to continue or discontinue services for specific bus companies should be made considering factors such as the severity and frequency of delays, the company's responsiveness 	  to improvement efforts, and the impact on students' overall satisfaction and convenience.
 
 ![image](https://github.com/NanManee/NYC_School_Bus/assets/156528525/f291c237-daea-456a-80c6-01d946894414)
-
-
-Tableau Visualization: https://public.tableau.com/app/profile/nanthawan.maneethong/viz/NYCSchoolBusDelays/Dashboard1
-
-Data Source: https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm/about_data
-Year 2016 - 2023
-
 
