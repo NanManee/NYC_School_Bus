@@ -17,8 +17,9 @@ The system for tracking bus breakdowns and delays gathers data from school bus v
 
 ### Questions to Answer
 
-- What are the major reasons and causes of school bus delays and breakdowns?
+
 - Is there a particular time of day when school bus delays and breakdowns occur?
+- What are the major reasons and causes of school bus delays and breakdowns?
 - Which bus companies experience the most delays?
 
   
@@ -137,10 +138,12 @@ https://public.tableau.com/app/profile/nanthawan.maneethong/viz/NYCSchoolBusDela
 ### Findings and Recomendations:
 
 
-### The main cause of Bus delays is heavy traffic, which accounts for around 176,000 delays. The mojority of bus delays happen during the morning hours, causing as high as 214,000 delays, and during the afternoon about 50,000 delays. 
+
+### 1. The main cause of Bus delays is heavy traffic, which accounts for around 176,000 delays. The mojority of bus delays happen during the morning hours, causing as high as 214,000 delays, and during the afternoon about 50,000 delays. 
 
 
-![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/9cb82909-78c6-4352-b13f-ebdadc13dfb1)
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/15ac7116-8282-49f1-a77e-db98f4ebc8c4)
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/54b34004-4111-4847-b567-a6d5bd20915e)
 
 
 
@@ -149,12 +152,10 @@ https://public.tableau.com/app/profile/nanthawan.maneethong/viz/NYCSchoolBusDela
 	- Collaborate with local municipalities to establish dedicated school bus lanes on key routes during peak hours. This can significantly reduce delays caused by general traffic congestion.
 	- Advocate for infrastructure improvements that facilitate smoother traffic flow, such as better road layouts, additional turning lanes, and improved signaling at intersections
    
-### Bus breakdowns mostly occur due to mechanical problems, resulting in almost 14,000 delays. Bus breakdowns happen during the morning hours, causing about 12,000 delays, and during the afternoon about 6,000 delays.
+### 2. Bus breakdowns mostly occur due to mechanical problems, resulting in almost 14,000 delays. Bus breakdowns happen during the morning hours, causing about 12,000 delays, and during the afternoon about 6,000 delays.
 
 
-![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/15ac7116-8282-49f1-a77e-db98f4ebc8c4)
-![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/54b34004-4111-4847-b567-a6d5bd20915e)
-
+![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/9cb82909-78c6-4352-b13f-ebdadc13dfb1)
 
 
 	- Highly recommend setting a regular maintenance schedule for all buses to prevent mechanical issues. This includes regular inspections, servicing, and timely replacement of worn-out parts.
@@ -164,7 +165,7 @@ https://public.tableau.com/app/profile/nanthawan.maneethong/viz/NYCSchoolBusDela
 	- Provide spare buses during peak hours to quickly replace any buses experiencing mechanical issues, minimizing delays for students.
  
 
-### The companies with the highest delay times, ranging from 46 minutes to 1.30 hours, should be investigated further. 
+### 3. The companies with the highest delay times, ranging from 46 minutes to 1.30 hours, should be investigated further. 
 
 
 ![image](https://github.com/NanManee/NYC_School_Bus_Delay_Project/assets/156528525/824f45f6-b02e-4b5c-9a3e-56c4bf52421c)
