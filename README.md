@@ -12,7 +12,7 @@ The system for tracking bus breakdowns and delays gathers data from school bus v
 ### Project Task
 
 - Analyzing historical data from the system to identify common causes such as mechanical issues, traffic congestion, weather conditions, etc.
-- Analyze the timestamp data from the system to determine if there are specific times of day or days of the week when delays and breakdowns are more common.
+- Analyze the timestamp data from the system to determine if there are specific times of day when delays and breakdowns are more common.
 - Aggregate and analyze data from the system to identify bus companies that have reported the highest number of delay incidents over a certain period. This analysis can help identify potential areas for improvement or intervention.
 
 ### Questions to Answer
